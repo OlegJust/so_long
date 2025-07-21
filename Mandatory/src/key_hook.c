@@ -6,7 +6,7 @@
 /*   By: opidhorn <opidhorn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 14:26:22 by jcheel-n          #+#    #+#             */
-/*   Updated: 2025/07/21 19:24:34 by opidhorn         ###   ########.fr       */
+/*   Updated: 2025/07/21 19:30:29 by opidhorn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	scan_player(t_map *map)
 
 int	key_hook(int keycode, t_map *map)
 {
-	`
+	
 	scan_player(map);
 	if (keycode == ESC)
 		return (ft_close(map));
